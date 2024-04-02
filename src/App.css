@@ -1,0 +1,666 @@
+/* Navbar container */
+.navbar {
+  background-color: #ffffff; /* Background color */
+  overflow: hidden; /* Ensure child elements don't overflow */
+  padding: 10px 20px; /* Padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items to each end of the container */
+  align-items: center; /* Center items vertically */
+  margin-right: 6%;
+}
+
+/* Logo */
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 6%;
+}
+
+/* Navbar links */
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar ul li {
+  display: inline; /* Display links horizontally */
+  margin-left: 20px; /* Adjust spacing between links */
+}
+
+.navbar ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(0, 0, 0); /* Link color */
+  font-weight: bold; /* Bold font */
+}
+
+/* Keep buttons right */
+.navbar ul {
+  margin-left: auto; /* Push the list items to the right */
+}
+
+/* Hover effect for links */
+.navbar ul li a:hover {
+  color:  #ffb52bbd;; /* Change color on hover */
+}
+
+/* Common styles for container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Left section */
+.left {
+  text-align: left;
+  margin-left: 7%;
+}
+
+/* Center section */
+.center {
+  text-align: center;
+}
+
+/* Right section */
+.right {
+  text-align: right;
+  font-size:large;
+  margin-right: 8%;
+ 
+
+
+}
+
+/* Additional styles for round shape and orange background */
+.center .image {
+  width: 225px; /* Adjust as needed */
+  height: 225px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the image round */
+  overflow: hidden; /* Ensures the image stays within the rounded border */
+  background-color: #ffb52bbd; /* Sets the background color to orange */
+}
+
+.center .image img {
+  width: 100%; /* Ensures the image fills the round container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Updated styles to remove bullet points from the list */
+.right .list {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+/* Updated styles to add horizontal line beside the name Nayana */
+.left .text {
+  position: relative;
+}
+
+/* Updated styles to add horizontal line beside the name Nayana */
+.left .text .line {
+  position: absolute;
+  top: 15%;
+  width: 100%; /* Adjust line length */
+  height: 2px; /* Adjust line thickness */
+  background-color: #ffb52bbd;/* Set line color to orange */
+  transform: translateY(-50%); /* Center the line vertically */
+  left: calc(100px + 10px); /* Position the line to the right of the name */
+  z-index: -1; /* Move the line behind other elements */
+}
+
+/* List highlighting styles */
+.right {
+  float: right; /* Float the div to the right */
+}
+
+.list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.list li {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-bottom: 5px;
+}
+
+.list li:hover {
+  color:  #ffb52bbd; /* Change text color on hover */
+  text-decoration: underline; /* Underline text on hover */
+}
+
+.button {
+  background: linear-gradient(to right, #ffb52bbd 50%, white 50%);
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: black; /* Text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  outline: none; /* Remove focus outline */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.icons {
+  margin-top: 90px; /* Add margin at the top of the icon container */
+}
+
+.icons i {
+  margin-right: 12px; /* Add margin between each icon */
+  color:  #ffb52bbd; /* Set the icon color to orange */
+}
+
+.content-leftandright {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 8%;
+  background-color: #f0f0f0; /* Set background color to grey */
+}
+
+.content-left {
+  flex: 1;
+  margin-left: 10%; /* Move content to the left */
+  margin-right: auto;
+  text-align: justify; /* Justify the text */
+  max-width: 50%;
+}
+
+.content-right {
+  margin-right: 10% ;
+  max-width: 50%; /* Limit the maximum width to 50% of the screen */
+  margin-top: auto;
+}
+
+.list1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list1 li {
+  color:  #ffb52bbd; /* Set text color to orange */
+  margin-bottom: 20%; /* Add space between each list item */
+}
+.random h1{
+  margin-left: 7%;
+}
+
+
+.footer {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
+  margin: 3rem;
+  margin-top: 80px;
+  
+}
+
+.education {
+  margin: -1.4rem 1.4rem 1.4rem 1.4rem; 
+ 
+  background-color: transparent;
+  display: block;
+ 
+
+  /* text-align: center; */
+}
+.photo{
+  background-color:  #ffb52bbd;
+  z-index: -999;
+  width: 80%;
+  height:95% !important ;
+  border-radius: 0px  0px 50% 50%;
+  margin-top: 0%;
+}
+
+.contents {
+  padding: 15px;
+  margin-left: 3rem;
+  border-left: 4px solid #ffb52bbd;
+  height: 212px;
+
+}
+
+.years {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 3px;
+  
+}
+
+.years1 {
+  position: relative;
+  transition: all 0.5s;
+  padding: 3px;
+}
+.years2 {
+  position: relative;
+  transition: all 0.5s;
+  padding: 3px;
+  
+}
+
+.contents .years::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 9px;
+  left: -24px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ffb52bbd;
+
+}
+
+.lines {
+  background-color: #ffb52bbd;
+  width: 13%;
+  height: 5px;
+  margin-left: 41px;
+
+}
+
+.dot {
+  background-color: #ffb52bbd;
+  width: 8px;
+  height: 5px;
+  margin-left: -21px;
+  margin-top: 8px;
+}
+
+.container1 {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #ffb52bbd;
+  border-radius: 2px;
+  width: 300px;
+  height: 320px;
+
+}
+
+.box .img {
+  max-width: 100%;
+  height: 240%;
+  width: 240%;
+}
+.box {
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+.box i {
+  font-size: 8em; /* Adjust the font size of the icon */
+  display: block; /* Make the icon a block element */
+  margin: 0 auto 10px; /* Add margin to the bottom to move the icon down */
+  margin-top: 60px;
+
+}
+.box h3, .box h4 {
+  margin: 5px 0;
+  color:black;
+}
+
+
+
+
+
+/* Mobile Screens */
+@media only screen and (max-width: 767px) {
+  .footer {
+      flex-direction: column;
+  }
+  
+  .education {
+      margin: 0;
+  }
+  
+  .contents {
+      margin-left: 0;
+  }
+  
+  .lines,
+  .dot {
+      display: none;
+  }
+  
+  .box {
+      width: 100%;
+  }
+}
+
+/* Tablet Screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .box {
+      width: 45%;
+  }
+}
+
+/* Desktop Screens */
+@media only screen and (min-width: 1024px) {
+  .footer {
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+
+
+
+
+
+.card-container {
+  display: flex;
+  flex-shrink: inherit;
+  position: relative;
+  width: 200px;
+  height: 500px;
+  margin: 150px auto 0; /* Margin top set to 300px, auto for horizontal centering */
+  
+  
+}
+
+
+.central-card {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.surrounding-cards {
+  position: relative;
+  width: 200%;
+  height: 200%;
+  transform-origin: center;
+
+}
+
+.surrounding-card {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.surrounding-card i {
+  display: inline-block; /* Ensure the icon is treated as a block element */
+  margin-right: 80%; /* Add space to the right of the icon */
+  margin-top: 10%; /* Adjust as needed */
+  font-size: 24px;
+  color: #ffb52bbd;
+  text-align: left; /* Align the icon to the left */
+}
+
+
+.surrounding-card h4 {
+  text-align: left;
+  margin-left: 10px;
+  width: auto;
+  padding-top: 10px;
+}
+
+.surrounding-card p {
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.surrounding-card:nth-child(1) {
+  transform: rotate(0deg) translate(110%) rotate(-0deg); /* Increase translation */
+}
+
+.surrounding-card:nth-child(2) {
+  transform: rotate(60deg) translate(110%) rotate(-60deg); /* Increase translation */
+}
+
+.surrounding-card:nth-child(3) {
+  transform: rotate(120deg) translate(110%) rotate(-120deg); /* Increase translation */
+}
+
+.surrounding-card:nth-child(4) {
+  transform: rotate(180deg) translate(110%) rotate(-180deg); /* Increase translation */
+}
+
+.surrounding-card:nth-child(5) {
+  transform: rotate(240deg) translate(110%) rotate(-240deg); /* Increase translation */
+}
+
+.surrounding-card:nth-child(6) {
+  transform: rotate(300deg) translate(110%) rotate(-300deg); /* Increase translation */
+}
+
+/* Style for content-navbar */
+.content-navbar {
+  padding: 20px;
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 6%;
+  margin-top: 40px;
+}
+
+.content-navbar h1 {
+  margin-bottom: 10px;
+  color: #333;
+  position: relative; /* Ensure positioning context for pseudo-element */
+}
+
+.content-navbar h1::after {
+  content: ""; /* Required for pseudo-elements */
+  display: block; /* Ensures it is a block-level element */
+  width: 100px; /* Adjust the width as needed */
+  height: 3px; /* Adjust the thickness of the line */
+  background-color: #ffb52bbd;/* Color of the line */
+  position: absolute; /* Position relative to the h1 */
+  bottom: -5px; /* Adjust position relative to the h1 */
+  left: 5%;
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+
+/* Style for content-navigation */
+.content-navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-navigation ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.content-navigation ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Style for container wrapper */
+.container-wrapper {
+  display: flex;
+}
+
+/* Style for each container */
+.container {
+  flex:1;
+}
+
+/* Style for pictures container */
+.pictures {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+/* Style for images */
+.pictures img {
+  width: 49%; /* Adjust width as needed */
+  height: auto;
+  margin: 0; /* Remove the margin */
+}
+.right img {
+  width: 171%;
+}
+.last-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/* .last-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid ;
+  margin-left: 75px;
+  margin-right: 70px;
+  margin-bottom: -12px;
+  background-color:#fcfafa ;
+  border-radius: 5px;
+  height: 50px;
+} */
+
+.logo-container {
+  width: 100%;
+  max-width: 1020px; /* 255px * 4 images */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Position relative for the shadow */
+  margin-top: 20px; /* Margin top for the shadow */
+}
+
+.logo-container::before {
+  content: "";
+  position: absolute;
+  top: -20px; /* Position at the top */
+  left: 0;
+  width: 100%;
+  height: 20px; /* Height of the shadow */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Add shadow at the top */
+}
+
+.logo-container img {
+  width: 100%; /* Ensure all images take up the same width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 255px;
+  max-height: 100px; /* Adjust height as needed */
+  object-fit: contain; /* Prevent cropping */
+}
+
+/* Style for the orange box container */
+.orange-box {
+  background-color:  #ffb52bbd;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Adjust as needed */
+  margin: 0 auto; /* Center the box horizontally */
+  margin-left: 120px;
+}
+
+/* Style for the inner navbar container */
+.inner-navbar {
+  text-align: left; /* Left-align the content */
+  margin-left: 5%;
+}
+
+/* Style for the testimonials text */
+.inner-navbar p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify; /* Justify the text */
+}
+
+.profile {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  margin-left: 5%;
+}
+
+.profile img {
+  width: 10%; /* Adjust as needed */
+  height: auto;
+  border-radius: 50%; /* Make the image round */
+  margin-right: 10px; /* Add margin to the right of the image for spacing */
+}
+
+
+/* Style for the profile name */
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -35%;
+}
+
+.chess i {
+  font-size: 270px;
+  color: #fee7bcbd;
+  margin-top: -100%;
+  margin-left: 75%;  
+  margin-right: 25%;  
+}
+
+.form {
+  margin-top: 40px;
+  margin-left: -5%;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="number"] {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid  #ffb52bbd;
+  outline: none;
+  font-size: 10px;
+}
+
+.form-control input[type="text"]::placeholder,
+.form-control input[type="email"]::placeholder,
+.form-control input[type="number"]::placeholder {
+  color: #aaa;
+}
+.btn {
+  background-color:  #ffb52bbd;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 65px;
+}
+
+.btn:hover {
+  background-color:  #ffb52bbd;
+}
